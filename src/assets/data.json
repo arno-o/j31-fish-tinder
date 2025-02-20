@@ -1,0 +1,22 @@
+{
+    "profiles": [
+        {
+            "name": "Fish Fisherman",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "image": "fisherman.jpg"
+        },
+        {
+            "name": "Sally Sailor",
+            "age": 30,
+            "bio": "I am a sailor who loves to sail.",
+            "image": "sailor.jpg"
+        },
+        {
+            "name": "Pete Pirate",
+            "age": 35,
+            "bio": "I am a pirate who loves to pirate.",
+            "image": "pirate.jpg"
+        }
+    ]
+}
