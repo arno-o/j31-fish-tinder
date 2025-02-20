@@ -7,6 +7,6 @@ De deelnemers zullen een clone van de populaire dating app 'Tinder' te zien krij
 De vis op de foto zal telkens wijzen in de richting naar waar ze moeten. Op ieder kruispunt moeten de deelnemers opnieuw swipen om zo het volgende profiel te zien te krijgen.
 
 ## Credits
-- [Project Website](https://arno-o.github.io/joepie31-tocht-e/)
+- [Project Website](https://arno-o.github.io/j31-fish-tinder/)
 
 Dit project is volledig onderhouden en geprogrammeerd door Arno Oosterlynck. Tocht Coordinator van Tocht E tijdens Joepie 31.
