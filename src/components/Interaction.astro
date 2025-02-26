@@ -1,14 +1,8 @@
 ---
-import UndoIcon from "../assets/svg/icon/Undo.svg";
-import { gsap } from "gsap";
-import { Draggable } from "gsap/Draggable";
-gsap.registerPlugin(Draggable);
-
 import { profiles } from "../assets/data.json";
-
 ---
 <div class="flex items-center justify-center overflow-hidden">
-    <button id="reset">Reset Local Storage</button>
+    <!-- <button id="reset">Reset Local Storage</button> -->
     <!-- Loop through the profiles and add the correct data-index attribute -->
     {profiles.map(({ id, name, age, bio, image }, index) => (
         <div 
@@ -36,4 +30,5 @@ import { profiles } from "../assets/data.json";
         </div>
     ))}
 </div>
-<script type="module" src="src/assets/scripts/draggable.js"></script>
+
+<script src="../assets/scripts/draggable.js"></script>
