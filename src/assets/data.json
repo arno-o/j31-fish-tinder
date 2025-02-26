@@ -1,22 +1,25 @@
 {
     "profiles": [
         {
-            "name": "Fish Fisherman",
+            "id": 0,
+            "name": "Bjorn",
             "age": 25,
             "bio": "I am a fisherman who loves to fish.",
-            "image": "fisherman.jpg"
+            "image": "https://placehold.co/400x700"
         },
         {
-            "name": "Sally Sailor",
+            "id": 1,
+            "name": "Sally",
             "age": 30,
             "bio": "I am a sailor who loves to sail.",
-            "image": "sailor.jpg"
+            "image": "https://placehold.co/400x700"
         },
         {
+            "id": 2,
             "name": "Pete Pirate",
             "age": 35,
             "bio": "I am a pirate who loves to pirate.",
-            "image": "pirate.jpg"
+            "image": "https://placehold.co/400x700"
         }
     ]
 }
