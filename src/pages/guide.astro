@@ -1,0 +1,30 @@
+---
+import "../styles/global.css";
+import guideData from "../assets/guide.json";
+import Button from "../components/Button.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout icon="⛵️" title="Handleiding">
+    <main class="p-8 lg:p-4 text-[3vh] lg:text-[2vh] lg:flex lg:justify-center lg:w-[40rem]">
+        <div class="flex flex-col lg:items-start">
+            <p class="text-[3vh] font-bold text-teal-700">
+                Een snelle handleiding
+            </p>
+
+            <div class="flex flex-col gap-4 my-8">
+                {guideData.map((item) => (
+                    <div class="">
+                        <h1 class="text-[4vh] font-bold">
+                            {item.title}
+                        </h1>
+                        <p class="">
+                            {item.content}
+                        </p>
+                    </div>
+                ))}
+            </div>
+
+            <Button url="/j31-fish-tinder/" label="Begin de tocht" />
+        </div>
+    </main>
+</BaseLayout>

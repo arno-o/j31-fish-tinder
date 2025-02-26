@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+    --color-j31-red: #e8212b;
+    --color-j31-yellow: #fbb715;
+    --color-j31-blue: #036eb1;
+    --color-j31-dark-blue: #0e2d4f;
+}
+
+@font-face {
+    font-family: 'j31-regular';
+    src: url(/src/assets/fonts/J31_BUBBLE.otf);
+}
