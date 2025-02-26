@@ -2,24 +2,29 @@
 import "../styles/global.css";
 import guideData from "../assets/guide.json";
 import Button from "../components/Button.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<main class="min-h-full bg-white px-6 py-24 text-pretty text-left sm:py-32 lg:px-8">
-    <div class="max-w-3xl mx-auto">
-        <p class=`text-[3rem] font-semibold text-teal-600`>Een korte handleiding</p>
-    </div>
+<BaseLayout icon="⛵️" title="Handleiding">
+    <main class="p-8 lg:p-4 text-[3vh] lg:text-[2vh] lg:flex lg:justify-center lg:w-[40rem]">
+        <div class="flex flex-col lg:items-start">
+            <p class="text-[3vh] font-bold text-teal-700">
+                Een snelle handleiding
+            </p>
 
-    { guideData.map((item) => {
-        return (
-            <div class="max-w-3xl mx-auto">
-                <h1 class="mt-12 text-[6rem] font-semibold tracking-tight text-gray-900">{item.title}</h1>
-                <p class="mt-12 text-[3rem] font-medium text-gray-500">{item.content}</p>
+            <div class="flex flex-col gap-4 my-8">
+                {guideData.map((item) => (
+                    <div class="">
+                        <h1 class="text-[4vh] font-bold">
+                            {item.title}
+                        </h1>
+                        <p class="">
+                            {item.content}
+                        </p>
+                    </div>
+                ))}
             </div>
-        );
-    })}
 
-    <div class="max-w-3xl mx-auto">
-        <h1 class="mt-12 text-[6rem] font-semibold tracking-tight text-balance text-gray-900">Ready?</h1>
-        <p class="mt-12 mb-24 text-[3rem] font-medium text-gray-500">Als jullie denken er volledig klaar voor te zijn, dan beginnen we eraan!</p>
-        <Button url="" label="Let's go!" />
-    </div>
-</main>
+            <Button url="/j31-fish-tinder/" label="Begin de tocht" />
+        </div>
+    </main>
+</BaseLayout>
