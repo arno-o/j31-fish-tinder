@@ -5,21 +5,294 @@
             "name": "Bjorn",
             "age": 25,
             "bio": "I am a fisherman who loves to fish.",
-            "image": "https://placehold.co/400x700"
+            "direction": "rechts"
         },
         {
             "id": 1,
-            "name": "Sally",
-            "age": 30,
-            "bio": "I am a sailor who loves to sail.",
-            "image": "https://placehold.co/400x700"
+            "name": "Arno",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "rechtendoor"
         },
         {
             "id": 2,
-            "name": "Pete Pirate",
-            "age": 35,
-            "bio": "I am a pirate who loves to pirate.",
-            "image": "https://placehold.co/400x700"
+            "name": "Caitlyn",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 3,
+            "name": "Robin",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "links"
+        },
+        {
+            "id": 4,
+            "name": "Mathilde",
+            "age": 25,
+            "bio": "Laat onverharde paden liggen..",
+            "direction": "links (90°)"
+        },
+        {
+            "id": 5,
+            "name": "Wannes",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 6,
+            "name": "Emiel",
+            "age": 25,
+            "bio": "Steek de spoorweg over. (Wees voorzichtig!)",
+            "direction": "rechts"
+        },
+        {
+            "id": 7,
+            "name": "Brent",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "links"
+        },
+        {
+            "id": 8,
+            "name": "Brecht",
+            "age": 25,
+            "bio": "Steek de weg over!!",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 9,
+            "name": "Matthieu",
+            "age": 25,
+            "bio": "Na de baan, sla rechts af!",
+            "direction": "rechts"
+        },
+        {
+            "id": 10,
+            "name": "Kieran",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "links"
+        },
+        {
+            "id": 11,
+            "name": "Wennie",
+            "age": 25,
+            "bio": "Steek opnieuw de autoweg over!",
+            "direction": "Rechtendoor"
+        },
+        {
+            "id": 12,
+            "name": "Eline",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "links"
+        },
+        {
+            "id": 13,
+            "name": "Amber",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "rechts"
+        },
+        {
+            "id": 14,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "I am a fisherman who loves to fish.",
+            "direction": "rechts"
+        },
+        {
+            "id": 15,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Na het huis, neem de onverharde weg!",
+            "direction": "links"
+        },
+        {
+            "id": 16,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Blijf vooruit gaan tot je over het water gaat.",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 17,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 18,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Richting de parking",
+            "direction": "rechts"
+        },
+        {
+            "id": 19,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Verlaat de parking en sla links af",
+            "direction": "links"
+        },
+        {
+            "id": 20,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "neem de 2de afslag rechts",
+            "direction": "rechts"
+        },
+        {
+            "id": 21,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 22,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Neem de 2de afslag van de rotonde",
+            "direction": "schuin linksboven"
+        },
+        {
+            "id": 23,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 24,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechts"
+        },
+        {
+            "id": 25,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "links"
+        },
+        {
+            "id": 26,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechts"
+        },
+        {
+            "id": 27,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "links"
+        },
+        {
+            "id": 28,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Neem de onverharde weg!",
+            "direction": "links"
+        },
+        {
+            "id": 29,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Sla rechts af VOOR het water",
+            "direction": "rechts"
+        },
+        {
+            "id": 30,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Sla links af NA het water",
+            "direction": "links"
+        },
+        {
+            "id": 31,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 32,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 33,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 34,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Je passeert huisnummer 10",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 35,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 36,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Links door een poort",
+            "direction": "links"
+        },
+        {
+            "id": 37,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechts"
+        },
+        {
+            "id": 38,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 39,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "rechtendoor"
+        },
+        {
+            "id": 40,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "",
+            "direction": "links"
+        },
+        {
+            "id": 41,
+            "name": "Bjorn",
+            "age": 25,
+            "bio": "Rechtendoor tot dat je aan de CP komt",
+            "direction": "rechtendoor"
         }
     ]
 }
