@@ -124,7 +124,7 @@ const resetLocalStorage = () => {
 
 // initialize the app
 const init = () => {
-    document.querySelector("#reset").addEventListener("click", resetLocalStorage);
+    // document.querySelector("#reset").addEventListener("click", resetLocalStorage);
 
     loadState(); // Load the saved state from localStorage
     renderCards(); // Render the cards based on the loaded state
