@@ -5,9 +5,40 @@ import Navigation from "../components/Navigation.astro";
 import Interaction from "../components/Interaction.astro";
 ---
 
+<style>
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255); /* Optional: semi-transparent background */
+    z-index: 9999; /* Ensure it overlaps everything */
+  }
+</style>
+
+<div id="preloader" class="flex items-center justify-center">
+  <div class="flex justify-center items-center space-x-1 text-sm text-gray-700">
+    <svg fill='none' class="w-6 h-6 animate-spin" viewBox="0 0 32 32" xmlns='http://www.w3.org/2000/svg'>
+      <path clip-rule='evenodd'
+        d='M15.165 8.53a.5.5 0 01-.404.58A7 7 0 1023 16a.5.5 0 011 0 8 8 0 11-9.416-7.874.5.5 0 01.58.404z'
+        fill='currentColor' fill-rule='evenodd' />
+    </svg>
+    <div class="font-['j31-regular'] text-[2vh] text-j31-blue">Joepie 31 - Tinder Vissen aan het laden</div>
+  </div>
+</div>
+
 <BaseLayout icon="🥾" title="Home">
   <main class="p-6">
     <Navigation />
     <Interaction />
   </main>
 </BaseLayout>
+
+<script type="module">
+  //after window is loaded completely 
+  window.onload = function(){
+      //hide the preloader
+      document.querySelector("#preloader").style.display = "none";
+  }
+</script>
