@@ -59,10 +59,10 @@ const undoLastSwipe = () => {
     const card = document.querySelector(`[data-index="${lastRemoved.index}"]`);
 
     if (card) {
-        gsap.set(card, { x: 0, rotation: 0 }); // Reset position and rotation to 0
+        gsap.set(card, { x: 0, rotation: 0, scale: 1 });
 
         card.style.display = "block"; 
-        gsap.fromTo(card, { opacity: 0 }, { opacity: 1, duration: 0.3 });
+        gsap.fromTo(card, { opacity: 0 }, { opacity: 1, duration: 0.3, scale: 1 });
 
         currentIndex = lastRemoved.index;
     }
@@ -94,13 +94,18 @@ const renderCards = () => {
             type: "x",
             bounds: { minX: -window.innerWidth, maxX: window.innerWidth },
             inertia: true,
+            onDrag: function () {
+                const rotation = this.x / window.innerWidth * 20;
+                const scale = 1 - Math.abs(this.x) / (window.innerWidth * 2);
+                gsap.to(currentCard, { rotation: rotation, scale: scale, duration: 0.1 });
+            },
             onDragEnd: function () {
                 if (this.endX > 150) {
                     swipe("right", currentCard);
                 } else if (this.endX < -150) {
                     swipe("left", currentCard);
                 } else {
-                    gsap.to(currentCard, { x: 0, rotation: 0, duration: 0.3 });
+                    gsap.to(currentCard, { x: 0, rotation: 0, scale: 1, duration: 0.3, ease: "power2.out" });
                 }
             }
         });

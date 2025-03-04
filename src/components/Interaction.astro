@@ -1,39 +1,40 @@
 ---
-import UndoIcon from "../assets/svg/icon/Undo.svg";
-import { gsap } from "gsap";
-import { Draggable } from "gsap/Draggable";
-gsap.registerPlugin(Draggable);
-
 import { profiles } from "../assets/data.json";
-
 ---
-<div class="flex items-center justify-center overflow-hidden">
+<div id="card-container" class="flex items-center justify-center overflow-hidden">
     <button id="reset">Reset Local Storage</button>
-    <!-- Loop through the profiles and add the correct data-index attribute -->
-    {profiles.map(({ id, name, age, bio }, index) => (
-        <div 
-            class="absolute bottom-10 w-[90vw] h-[80dvh] flex flex-col justify-between rounded-2xl bg-cover bg-center overflow-hidden card"
-            style={`background-image: url(src/assets/img/img${id}.png); z-index: ${profiles.length - index}`}
-            data-index={index}
-        >
-            <div class="p-4">
-                <div class="w-full h-2 bg-white rounded-full opacity-80"></div>
-            </div>
-            <div class="flex flex-row items-end justify-between gap-5 bg-gradient-to-t from-black w-full h-32 p-6">
-                <div class="flex flex-col gap-2">
-                    <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full text-xl font-bold text-j31-blue">
-                        {id + 1}
+    {
+        profiles.map((profile, index) => (
+            <div
+                class="absolute bottom-10 w-[90vw] h-[80dvh] flex flex-col justify-between rounded-2xl bg-cover bg-center overflow-hidden card"
+                style={`background-image: url(img/img${profile.id}.png); z-index: ${index}`}
+                data-index={index} >
+                <div class="p-4">
+                    <div class="w-full h-2 bg-white rounded-full opacity-80" />
+                </div>
+                <div class="flex flex-row items-end justify-between gap-5 bg-gradient-to-t from-black w-full h-32 p-6">
+                    <div class="flex flex-col gap-2">
+                        <div class="flex justify-center items-center w-14 h-14 bg-white rounded-full text-xl font-bold text-j31-blue">
+                            {profile.id + 1}
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex items-baseline gap-4">
+                            <h1 class="font-bold text-white text-[5vh]">
+                                {profile.name}
+                            </h1>
+                            <span class="text-white text-[4vh]">
+                                {profile.age}
+                            </span>
+                        </div>
+                        <p class="text-white text-[2vh] line-clamp-3">
+                            {profile.bio}
+                        </p>
                     </div>
                 </div>
-                <div class="flex flex-col">
-                    <div class="flex items-baseline gap-4">
-                        <h1 class="font-bold text-white text-[5vh]">{name}</h1>
-                        <span class="text-white text-[4vh]">{age}</span>
-                    </div>
-                    <p class="text-white text-[2vh] line-clamp-3">{bio}</p>    
-                </div>
             </div>
-        </div>
-    ))}
+        ))
+    }
 </div>
-<script type="module" src="src/assets/scripts/draggable.js"></script>
+
+<script src="../scripts/draggable.js"></script>
