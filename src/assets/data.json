@@ -2,297 +2,297 @@
     "profiles": [
         {
             "id": 0,
-            "name": "Bjorn",
+            "name": "Karel",
             "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "bio": "Man ik vis toch veel liever dan dat ik stap!",
             "direction": "rechts"
         },
         {
             "id": 1,
             "name": "Arno",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
-            "direction": "rechtendoor"
+            "age": 20,
+            "bio": "Poah wat een mooi ding!",
+            "direction": "rechtdoor"
         },
         {
             "id": 2,
-            "name": "Caitlyn",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
-            "direction": "rechtendoor"
+            "name": "Jeroen",
+            "age": 21,
+            "bio": "Na een nachtje OVP zie ik er zo uit:",
+            "direction": "rechtdoor"
         },
         {
             "id": 3,
             "name": "Robin",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "age": 67,
+            "bio": "Ik schrijf soms met mijn linker hand gewoon voor de leute",
             "direction": "links"
         },
         {
             "id": 4,
-            "name": "Mathilde",
-            "age": 25,
-            "bio": "Laat onverharde paden liggen..",
+            "name": "Koen",
+            "age": 19,
+            "bio": "Onverharde wegen zijn eigenlijk niet echt mijn ding..",
             "direction": "links (90°)"
         },
         {
             "id": 5,
             "name": "Wannes",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
-            "direction": "rechtendoor"
+            "age": 23,
+            "bio": "Soms als ik mijn vis vrijlaat pink ik een traantje weg. Hoe mooi is dat?",
+            "direction": "rechtdoor"
         },
         {
             "id": 6,
             "name": "Emiel",
             "age": 25,
-            "bio": "Steek de spoorweg over. (Wees voorzichtig!)",
+            "bio": "Om naar mijn vaste visplaats te gaan steek ik soms wel eens de snelweg over. (Wees voorzichtig!)",
             "direction": "rechts"
         },
         {
             "id": 7,
             "name": "Brent",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "age": 24,
+            "bio": "Ben jij een zeemeermin? Want ik verdrink in je ogen",
             "direction": "links"
         },
         {
             "id": 8,
             "name": "Brecht",
             "age": 25,
-            "bio": "Steek de weg over!!",
-            "direction": "rechtendoor"
+            "bio": "Ik steek alle wegen over als het betekent dat ik kan gaan vissen!",
+            "direction": "rechtdoor"
         },
         {
             "id": 9,
             "name": "Matthieu",
-            "age": 25,
-            "bio": "Na de baan, sla rechts af!",
+            "age": 58,
+            "bio": "Mijn liefde voor jou is als de oceaan – eindeloos en diep. (Na de baan, sla rechts af!)",
             "direction": "rechts"
         },
         {
             "id": 10,
-            "name": "Kieran",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "name": "Wennie",
+            "age": 43,
+            "bio": "Ben jij een schatkaart? Want ik heb zojuist mijn verborgen schat gevonden.",
             "direction": "links"
         },
         {
             "id": 11,
-            "name": "Wennie",
-            "age": 25,
-            "bio": "Steek opnieuw de autoweg over!",
-            "direction": "Rechtendoor"
+            "name": "Patrick",
+            "age": 90,
+            "bio": "Ik ben misschien geen visser, maar ik denk dat ik net mijn grootste vangst ooit heb binnengehaald.",
+            "direction": "rechtdoor"
         },
         {
             "id": 12,
-            "name": "Eline",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "name": "Nico",
+            "age": 38,
+            "bio": "Is jouw naam Nemo? Want ik heb je eindelijk gevonden!",
             "direction": "links"
         },
         {
             "id": 13,
-            "name": "Amber",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "name": "Peetn",
+            "age": 67,
+            "bio": "Ik ben als een kwal – misschien een beetje prikkelend, maar toch fascinerend.",
             "direction": "rechts"
         },
         {
             "id": 14,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "I am a fisherman who loves to fish.",
+            "name": "Mark",
+            "age": 55,
+            "bio": "Ik ben geen octopus, maar ik zou je best met al mijn armen willen knuffelen.",
             "direction": "rechts"
         },
         {
             "id": 15,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Na het huis, neem de onverharde weg!",
+            "name": "Piet",
+            "age": 29,
+            "bio": "Naast mijn huis ligt er een onverharde weg, daar ging ik altijd spelen met mijn vrienden!",
             "direction": "links"
         },
         {
             "id": 16,
-            "name": "Bjorn",
+            "name": "Jeff",
             "age": 25,
-            "bio": "Blijf vooruit gaan tot je over het water gaat.",
-            "direction": "rechtendoor"
+            "bio": "Mijn moeder zij altijd “Altijd blijven gaan, zelfs over het water.” 🌊🚶‍♂️.",
+            "direction": "rechtdoor"
         },
         {
             "id": 17,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Saul",
+            "age": 36,
+            "bio": "Jij hebt mijn hart gevangen en ik wil nooit meer losgelaten worden.",
+            "direction": "rechtdoor"
         },
         {
             "id": 18,
-            "name": "Bjorn",
+            "name": "James",
             "age": 25,
-            "bio": "Richting de parking",
+            "bio": "Ik had vroeger altijd moeite met parking vinden, nu zet ik gewoon mijn 4 pinkers aan en ga ik vissen!",
             "direction": "rechts"
         },
         {
             "id": 19,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Verlaat de parking en sla links af",
+            "name": "Danny",
+            "age": 27,
+            "bio": "Parkeren is zoveel leuker in Australië. Daar staan ze aan de linker kant van de weg!",
             "direction": "links"
         },
         {
             "id": 20,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "neem de 2de afslag rechts",
+            "name": "Emanuel",
+            "age": 44,
+            "bio": "Tegenwoordig vis ik aan de rechterkant van de vijver. Daar heb ik altijd goeie 2de kansen.",
             "direction": "rechts"
         },
         {
             "id": 21,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Michael",
+            "age": 23,
+            "bio": "Poah wat een kanjer! -- Ik ben als een vuurtoren – altijd hier om je de weg te wijzen naar mijn hart.",
+            "direction": "rechtdoor"
         },
         {
             "id": 22,
-            "name": "Bjorn",
+            "name": "Tom",
             "age": 25,
-            "bio": "Neem de 2de afslag van de rotonde",
+            "bio": "Ik krijg altijd keuzestress bij de viswinkel.. eerste rondje is om te kijken, tweede om te kiezen!",
             "direction": "schuin linksboven"
         },
         {
             "id": 23,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Tristan",
+            "age": 39,
+            "bio": "Mijn hart bonkt harder dan een vis op het droge als ik je zie.",
+            "direction": "rechtdoor"
         },
         {
             "id": 24,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Rick",
+            "age": 26,
+            "bio": "Ik heb gehoord dat Tocht E op Joepie de leukste is 🤐",
             "direction": "rechts"
         },
         {
             "id": 25,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Philip",
+            "age": 46,
+            "bio": "Minions!! Tonight!! We steal.. the MOON!",
             "direction": "links"
         },
         {
             "id": 26,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Arne",
+            "age": 30,
+            "bio": "Deze vis heb ik gevonden in een bos, ik wist niet dat ze daar ook zwommen!",
             "direction": "rechts"
         },
         {
             "id": 27,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Jean",
+            "age": 38,
+            "bio": "Ik zeg altijd: 'Als je niet weet waar je naartoe moet, ga dan naar links!'",
             "direction": "links"
         },
         {
             "id": 28,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Neem de onverharde weg!",
+            "name": "Wim",
+            "age": 44,
+            "bio": "Mijn moeder zij altijd: 'De leukste routes in het leven hebben geen asfalt.'",
             "direction": "links"
         },
         {
             "id": 29,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Sla rechts af VOOR het water",
+            "name": "Gilles",
+            "age": 31,
+            "bio": "Ik maak altijd de juiste keuzes VOOR mijn voeten nat worden!",
             "direction": "rechts"
         },
         {
             "id": 30,
-            "name": "Bjorn",
+            "name": "Keith",
             "age": 25,
-            "bio": "Sla links af NA het water",
+            "bio": "Op school was het voor mij altijd met de hakken over de sloot, daarna ging het linksaf!",
             "direction": "links"
         },
         {
             "id": 31,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Noah",
+            "age": 27,
+            "bio": "Ben jij een eiland? Want ik wil op jou aanspoelen en nooit meer weggaan.",
+            "direction": "rechtdoor"
         },
         {
             "id": 32,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Steven",
+            "age": 41,
+            "bio": "Ben jij een vuurtoren? Want je laat mijn hart lichten in de duisternis.",
+            "direction": "rechtdoor"
         },
         {
             "id": 33,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Nasha",
+            "age": 23,
+            "bio": "Ik ben misschien geen paling, maar ik voel een elektrische vonk tussen ons.",
+            "direction": "rechtdoor"
         },
         {
             "id": 34,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Je passeert huisnummer 10",
-            "direction": "rechtendoor"
+            "name": "Frank",
+            "age": 37,
+            "bio": "Toen mijn goudvis de leeftijd van 10 jaar passeerde, wist ik dat hij mijn beste vriend was.",
+            "direction": "rechtdoor"
         },
         {
             "id": 35,
-            "name": "Bjorn",
+            "name": "Hannah",
             "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "bio": "Ben jij een glazen deur? Want ik kan wel regelrecht in je armen lopen.",
+            "direction": "rechtdoor"
         },
         {
             "id": 36,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "Links door een poort",
+            "name": "Frederik",
+            "age": 60,
+            "bio": "Voor mijn 60e verjaardag ben ik helemaal links gegaan in de overPOORT!",
             "direction": "links"
         },
         {
             "id": 37,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Remus",
+            "age": 67,
+            "bio": "Ik ben helemaal geen visser. Deze komt uit den Aldi.",
             "direction": "rechts"
         },
         {
             "id": 38,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "Chris",
+            "age": 32,
+            "bio": "Die ring rond mijn vinger is photoshop.. ik ben nog steeds vrijgezel!",
+            "direction": "rechtdoor"
         },
         {
             "id": 39,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
-            "direction": "rechtendoor"
+            "name": "David",
+            "age": 41,
+            "bio": "Mijn favoriete tijdschrift is toch wel de Joeper hoor!",
+            "direction": "rechtdoor"
         },
         {
             "id": 40,
-            "name": "Bjorn",
-            "age": 25,
-            "bio": "",
+            "name": "Kasper",
+            "age": 64,
+            "bio": "Mijn liefde voor jou stijgt sneller dan een luchtbel naar het wateroppervlak!",
             "direction": "links"
         },
         {
             "id": 41,
             "name": "Bjorn",
             "age": 25,
-            "bio": "Rechtendoor tot dat je aan de CP komt",
-            "direction": "rechtendoor"
+            "bio": "Lieve vrienden, de CP is in zicht. Nog even rechtendoor!",
+            "direction": "rechtdoor"
         }
     ]
 }
