@@ -17,9 +17,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
                         <h1 class="text-[4vh] font-bold">
                             {item.title}
                         </h1>
-                        <p class="">
-                            {item.content}
-                        </p>
+                        <p class="" set:html={item.content}></p>
                     </div>
                 ))}
             </div>
